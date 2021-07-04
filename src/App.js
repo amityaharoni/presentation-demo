@@ -1,6 +1,7 @@
-import { BrowserRouter, Switch, Route, Redirect } from 'react-router-dom';
+import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import './App.css';
 import Slide from './Slide'
+import 'bootstrap/dist/css/bootstrap.min.css'
 
 function App() {
   return (
