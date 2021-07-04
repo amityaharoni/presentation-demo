@@ -1,4 +1,5 @@
 import React from 'react'
+import './Slide.css'
 
 class Slide extends React.Component {
     constructor(props) {
@@ -16,10 +17,11 @@ class Slide extends React.Component {
     }
 
     render() {
+        let path ="assets/img/presentation/"+this.state.index+".jpg";
         return(
             <div>
-                {this.state.index}
-            </div>
+                <img className="bg" src={path} />
+            </div>   
         )
     }
 }

@@ -1,6 +1,7 @@
 import { BrowserRouter, Switch, Route, Redirect } from 'react-router-dom';
 import './App.css';
 import Slide from './Slide'
+
 function App() {
   return (
     <BrowserRouter>
